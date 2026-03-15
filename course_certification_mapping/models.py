@@ -14,3 +14,5 @@ class CourseCertificationMapping(models.Model):
 
     class Meta:
         unique_together = ['course', 'certification']
+    def __str__(self):
+        return f"{self.course.name} - {self.certification.name}"

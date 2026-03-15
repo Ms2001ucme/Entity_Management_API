@@ -14,3 +14,6 @@ class VendorProductMapping(models.Model):
 
     class Meta:
         unique_together = ['vendor', 'product']
+
+    def __str__(self):
+        return f"{self.vendor.name} - {self.product.name}"

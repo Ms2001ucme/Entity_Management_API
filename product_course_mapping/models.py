@@ -14,3 +14,6 @@ class ProductCourseMapping(models.Model):
 
     class Meta:
         unique_together = ['product', 'course']
+        
+    def __str__(self):
+        return f"{self.product.name} - {self.course.name}"
