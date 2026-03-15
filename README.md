@@ -1,19 +1,54 @@
-Project: Entity Management API
+# Entity Management API
 
-Tech Stack
+A modular backend API built using **Django** and **Django REST Framework** to manage entities such as Vendors, Products, Courses, and Certifications with flexible mapping between them.
+
+## Tech Stack
+
+- Python
 - Django
 - Django REST Framework
-- Swagger
+- drf-yasg (Swagger API documentation)
+- SQLite (development database)
 
-Features
+---
+
+## Features
+
 - Vendor management
 - Product management
 - Course management
-- Product-Course mapping
+- Certification management
+- Vendor–Product mapping
+- Product–Course mapping
+- Course–Certification mapping
+- RESTful APIs
 - Swagger API documentation
 
-Run Project
+---
 
--pip install -r requirements.txt
--python manage.py migrate
--python manage.py runserver
+## API Documentation
+
+Interactive API documentation is available using Swagger.
+
+---
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/YOUR_USERNAME/Entity_Management_API.git
+cd Entity_Management_API
+
+**Create a virtual environment**
+- python -m venv venv
+
+**Install Dependencies**
+
+- pip install -r requirements.txt
+
+**Apply Migrations**
+- python manage.py migrate
+
+**Start Server**
+- python manage.py runserver
