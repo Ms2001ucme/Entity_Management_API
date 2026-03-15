@@ -37,14 +37,13 @@ Interactive API documentation is available using Swagger.
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Entity_Management_API.git
+git clone https://github.com/Ms2001ucme/Entity_Management_API.git
 cd Entity_Management_API
 
 **Create a virtual environment**
 - python -m venv venv
 
 **Install Dependencies**
-
 - pip install -r requirements.txt
 
 **Apply Migrations**
